@@ -1,0 +1,48 @@
+.header{
+    width: 1440px;
+    height: 88px;
+
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    z-index: 10;
+}
+
+.header__content{
+    width: 1300px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav{
+    width: 476px;
+}
+
+.header__nav ul{
+    display: flex;
+}
+
+.header__nav li{
+    padding: 34px 24px;
+    list-style-type: none;
+}
+
+.header__nav a{
+    height: 88px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.active-menu{
+    background-color: #5221E6;
+}
+
+.header--scrolling{
+    background-color: #000000;
+}
