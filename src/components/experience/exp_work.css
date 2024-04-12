@@ -1,0 +1,38 @@
+.exp__work{
+    height: 715px;
+    background-color: #000000;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.exp__title{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66.17px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 690px;
+    height: 132px;
+
+    padding: 80px 0;
+}
+
+.exp__title span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #8491A0;
+}
+
+.exp__workInCompan{
+    width: 1300px;
+}
