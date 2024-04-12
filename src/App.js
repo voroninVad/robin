@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import './index.css';
 import Banner from './components/banner/Banner';
 import Exp_work from './components/experience/Exp_work';
+import Philosophy from './components/Philosophy&values/Philosophy';
 
 
 class App extends React.Component {
@@ -13,6 +14,7 @@ class App extends React.Component {
         <div className='main'>
             <Banner />
             <Exp_work />
+            <Philosophy />
         </div>
       </div>
     );

@@ -1,5 +1,5 @@
 .header{
-    width: 1440px;
+    width: 1900px;
     height: 88px;
 
     display: flex;
@@ -13,7 +13,7 @@
 }
 
 .header__content{
-    width: 1300px;
+    width: 1800px;
     height: 88px;
     display: flex;
     align-items: center;
