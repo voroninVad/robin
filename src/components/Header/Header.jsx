@@ -25,21 +25,22 @@ export class Header extends Component {
     return (
       <header>
             <div className="header">
-                <div ref="toggle" className="header__content">
-                    <div className="header__logo">
-                        <img src={logo} alt="" />
+                <div className="header">
+                    <div ref="toggle" className="header__content">
+                        <div className="header__logo">
+                            <img src={logo} alt="" />
+                        </div>
+                        <div className="header__nav">
+                            <ul>
+                                <li id='blockBtn1' className="__nav"><a className='btn' data-num="1" href="#exp">Experience</a></li>
+                                <li id='blockBtn2' className="__nav"><a className='btn' data-num="2" href="#work">Work</a></li>
+                                <li id='blockBtn3' className="__nav"><a className='btn' data-num="3" href="#photo">Photography</a></li>
+                                <li id='blockBtn4' className="__nav"><a className='btn' data-num="4" href="#cont">Contact</a></li>
+                            </ul>
+                        </div>
+                        
                     </div>
-                    <div className="header__nav">
-                        <ul>
-                            <li id='blockBtn1' className="__nav"><a className='btn' data-num="1" href="#exp">Experience</a></li>
-                            <li id='blockBtn2' className="__nav"><a className='btn' data-num="2" href="#work">Work</a></li>
-                            <li id='blockBtn3' className="__nav"><a className='btn' data-num="3" href="#photo">Photography</a></li>
-                            <li id='blockBtn4' className="__nav"><a className='btn' data-num="4" href="#cont">Contact</a></li>
-                        </ul>
-                    </div>
-                    
                 </div>
-
             </div>
         </header>
     )

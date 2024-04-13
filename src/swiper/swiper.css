@@ -1,0 +1,41 @@
+.swipers__slide{
+    height: 145px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.swiper__img{
+    width: 2100px;
+    display: inline-block;
+    animation: 5s slider infinite linear;
+}
+
+.swipers{
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swiper__img img{
+    width: auto;
+    height: 30px;
+}
+
+@keyframes slider{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.swiper{
+    min-width: 340px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #181823;
+}

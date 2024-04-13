@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 
 *{
+  width: 1440px;
   margin: 0;
   padding: 0;
+}
+
+body{
   font-family: 'Sen', sans-serif ;
   scroll-behavior: smooth;
 }
 
-.App{
-  
-  width: 1900px;
+.main{
+  width: auto;
+  max-width: 100%;
+  background-color: #000000;
 }

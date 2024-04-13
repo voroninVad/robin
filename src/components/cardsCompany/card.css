@@ -1,4 +1,7 @@
 .cards{
+    
+    width: auto;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -10,6 +13,8 @@
 }
 
 .work__titleNum{
+    width: auto;
+    max-width: 100%;
     font-size: 117px;
     font-weight: 400;
     line-height: 140.77px;
@@ -20,6 +25,8 @@
 }
 
 .work__name-compan{
+    width: auto;
+    max-width: 100%;
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
@@ -29,6 +36,8 @@
 }
 
 .work__desc{
+    width: auto;
+    max-width: 100%;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;

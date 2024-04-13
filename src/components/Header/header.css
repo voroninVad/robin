@@ -1,23 +1,27 @@
 .header{
-    width: 1900px;
-    height: 88px;
-
-    display: flex;
-    justify-content: center;
-
     position: fixed;
     top: 0;
     left: 0;
-    
+}
+
+.header{
+    width: 1440px;
+    height: 80px;
     z-index: 10;
 }
 
-.header__content{
-    width: 1800px;
-    height: 88px;
+ .header__content{
+    width: 1380px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header__logo, .header__logo img {
+    width: 80px;
+    height: 24px;
+    padding-left: 30px;
 }
 
 .header__nav{
@@ -25,11 +29,15 @@
 }
 
 .header__nav ul{
+    width: auto;
+    max-width: 100%;
     display: flex;
 }
 
 .header__nav li{
-    padding: 34px 24px;
+    width: auto;
+    max-width: 100%;
+    padding: 30px 24px;
     list-style-type: none;
 }
 
@@ -37,7 +45,7 @@
     height: 88px;
     text-decoration: none;
     color: #FFFFFF;
-}
+} 
 
 .active-menu{
     background-color: #5221E6;

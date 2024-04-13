@@ -26,6 +26,10 @@
 }
 
 .exp__title span{
+    width: 150px;
+}
+
+.exp__title span{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;

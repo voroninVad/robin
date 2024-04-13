@@ -3,10 +3,6 @@ import './card.css'
 import React, { Component } from 'react'
 
 export class Card extends Component {
-    componentDidMount(){
-        let first = document.querySelector('.work__name-compan');
-    first.innerHTML = first.innerHTML.replace(/(^ ?|<br> ?|[!?.] .*?)([\wа-яё]+)/gim, '$1<span class="hl">$2</span>');
-    }
   render() {
     return (
         <div className="cards">

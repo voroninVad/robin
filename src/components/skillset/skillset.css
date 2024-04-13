@@ -1,0 +1,48 @@
+.skillset{
+    width: auto;
+    max-width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.skillset__content{
+    width: auto;
+    max-width: 100%;
+    height: 664px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    align-content: center;
+    column-gap: 50px;
+}
+
+.skillset__text{
+    width: auto;
+    max-width: 100%;
+    padding-left: 70px;
+}
+
+.skillset__title{
+    width: auto;
+    max-width: 100%;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66.17px;
+    text-align: left;
+}
+
+.skillset__desc{
+    width: 368px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+    color: #8491A0;
+}
+
+.skillset__skills{
+    width: 900px;
+    height: 400px;
+}
