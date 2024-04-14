@@ -7,6 +7,9 @@ import Philosophy from './components/Philosophy&values/Philosophy';
 import Skillset from './components/skillset/Skillset';
 import Swiper from './components/swiper/Swiper';
 import Work from './components/work/Work';
+import Instagram from './components/instagram/Instagram';
+import Dribbble from './components/drigggle/Dribbble';
+import Reviews from './components/reviews/Reviews';
 
 
 class App extends React.Component {
@@ -21,6 +24,9 @@ class App extends React.Component {
             <Skillset />
             <Swiper />
             <Work />
+            <Instagram />
+            <Dribbble />
+            <Reviews />
         </div>
       </div>
     );
