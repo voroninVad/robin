@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/robin/static/css/main.006eaaf5.css",
-    "main.js": "/robin/static/js/main.dc245f79.js",
+    "main.css": "/robin/static/css/main.8c12358c.css",
+    "main.js": "/robin/static/js/main.22652ba3.js",
+    "static/media/02_003.avif": "/robin/static/media/02_003.5a8e5223711b8749ad7d.avif",
     "static/media/01.avif": "/robin/static/media/01.736925886d2b9e37ad06.avif",
+    "static/media/03.avif": "/robin/static/media/03.64b677e7a0c1037800da.avif",
     "static/media/03_006.avif": "/robin/static/media/03_006.9e5058159fdf2bb6d445.avif",
+    "static/media/01_002.avif": "/robin/static/media/01_002.e235a2b9d96ec2ab042c.avif",
     "static/media/01_004.avif": "/robin/static/media/01_004.7adab6bee9d47486a9de.avif",
+    "static/media/01_006.avif": "/robin/static/media/01_006.720bd48253ed08feb305.avif",
     "static/media/01_003.avif": "/robin/static/media/01_003.67c8f0f31909f79ec098.avif",
+    "static/media/01_007.avif": "/robin/static/media/01_007.f70b07f4c7070d9be489.avif",
     "static/media/05.svg": "/robin/static/media/05.aaaa61cd9483f2b1d7a284858f6a7698.svg",
     "static/media/02_005.avif": "/robin/static/media/02_005.b3bf2bbc2e931728192c.avif",
     "static/media/04.avif": "/robin/static/media/04.9ca1cc405f85ac602f9a.avif",
@@ -20,11 +25,11 @@
     "static/media/03_003.svg": "/robin/static/media/03_003.2f5f8b704a39992b13db4e2d35c16c51.svg",
     "static/media/04.svg": "/robin/static/media/04.15491af255b0fbe48aca1609e1368292.svg",
     "static/media/03_002.svg": "/robin/static/media/03_002.2c0b5fc938018424084e9f1a3246787f.svg",
-    "main.006eaaf5.css.map": "/robin/static/css/main.006eaaf5.css.map",
-    "main.dc245f79.js.map": "/robin/static/js/main.dc245f79.js.map"
+    "main.8c12358c.css.map": "/robin/static/css/main.8c12358c.css.map",
+    "main.22652ba3.js.map": "/robin/static/js/main.22652ba3.js.map"
   },
   "entrypoints": [
-    "static/css/main.006eaaf5.css",
-    "static/js/main.dc245f79.js"
+    "static/css/main.8c12358c.css",
+    "static/js/main.22652ba3.js"
   ]
 }
