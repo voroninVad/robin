@@ -5,7 +5,8 @@ import Banner from './components/banner/Banner';
 import Exp_work from './components/experience/Exp_work';
 import Philosophy from './components/Philosophy&values/Philosophy';
 import Skillset from './components/skillset/Skillset';
-import Swiper from './swiper/Swiper';
+import Swiper from './components/swiper/Swiper';
+import Work from './components/work/Work';
 
 
 class App extends React.Component {
@@ -14,11 +15,12 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <div className='main'>
-            {/* <Banner />
+            <Banner />
             <Exp_work />
-            <Philosophy /> */}
+            <Philosophy />
             <Skillset />
             <Swiper />
+            <Work />
         </div>
       </div>
     );
