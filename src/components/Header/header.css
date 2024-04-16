@@ -39,6 +39,7 @@
     max-width: 100%;
     padding: 30px 24px;
     list-style-type: none;
+    transition: 0.5s ease-in-out;
 }
 
 .header__nav a{
@@ -49,6 +50,7 @@
 
 .active-menu{
     background-color: #5221E6;
+    transition: 0.5s ease-in-out;
 }
 
 .header--scrolling{
