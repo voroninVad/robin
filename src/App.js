@@ -11,7 +11,9 @@ import Instagram from './components/instagram/Instagram';
 import Dribbble from './components/drigggle/Dribbble';
 import Reviews from './components/reviews/Reviews';
 import Gallary from './components/gallary/Gallary';
+import Footer from './components/footer/Footer';
 import $ from 'jquery';
+import Contact from './components/contact/Contact';
 
 
 class App extends React.Component {
@@ -21,16 +23,16 @@ class App extends React.Component {
             else $('.header').removeClass('header--scrolling');
 
             if($(window).scrollTop() > 0 && $(window).scrollTop() < 2900) {
+              $('.__nav').removeClass('active-menu');
               $('#blockBtn1').addClass('active-menu');
             }
             else if($(window).scrollTop() > 2900 && $(window).scrollTop() < 9550){
+              $('.__nav').removeClass('active-menu');
               $('#blockBtn2').addClass('active-menu');
             }
             else if($(window).scrollTop() > 9600 && $(window).scrollTop() < 10750){
+              $('.__nav').removeClass('active-menu');
               $('#blockBtn3').addClass('active-menu');
-            }
-            else{
-              $('.__nav').removeClass('active-menu')
             }
       });
 
@@ -58,7 +60,9 @@ class App extends React.Component {
             <Dribbble />
             <Reviews />
             <Gallary />
+            <Contact />
         </div>
+        <Footer />
       </div>
     );
   }

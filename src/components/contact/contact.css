@@ -1,0 +1,86 @@
+.contact{
+    height: 731px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__content{
+    width: auto;
+    max-width: 90%;
+
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contact__title{
+    width: auto;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+    color: #8491A0;
+}
+
+.contact__title span{
+    width: auto;
+    max-width: 100%;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66.17px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.contact__form, .contact__form form{
+    width: auto;
+    max-width: 65%;
+    height: 490px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact__form label{
+    width: auto;
+    max-width: 30%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.contact__form input,textarea{
+    width: 526px;
+    background-color: #181823;
+    border: none;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.contact__form textarea{
+    height: 100px;
+}
+
+.contact__form input[type="submit"]{
+    font-family: 'Sen';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #5221E6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
