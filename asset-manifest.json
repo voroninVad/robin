@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/robin/static/css/main.62f6ed62.css",
-    "main.js": "/robin/static/js/main.29583c60.js",
+    "main.css": "/robin/static/css/main.275a1e36.css",
+    "main.js": "/robin/static/js/main.3ddeb6b2.js",
     "static/media/05.avif": "/robin/static/media/05.b4cd1e049fe2fff3177e.avif",
     "static/media/02_006.avif": "/robin/static/media/02_006.3113fa3dd4ffef6fd9bf.avif",
     "static/media/03_004.avif": "/robin/static/media/03_004.7f64b5ea31b0ddfcf40e.avif",
@@ -34,17 +34,20 @@
     "static/media/01.svg": "/robin/static/media/01.fdda00637de2a23a78299818f9204c7d.svg",
     "static/media/02.svg": "/robin/static/media/02.cd9f0284f3bf633e610d92fe2b914734.svg",
     "static/media/02_003.svg": "/robin/static/media/02_003.b1326e0e2ab83b1c96b4fb55ed3dd0f1.svg",
+    "static/media/02_002.svg": "/robin/static/media/02_002.3124c5965ffa03fca22ea51e46480585.svg",
     "static/media/01_002.svg": "/robin/static/media/01_002.0aa1f76554c13a371e49b64f29efd3cf.svg",
+    "static/media/01_003.svg": "/robin/static/media/01_003.38f191e0fe78eb68b94559d0e1304eb4.svg",
     "index.html": "/robin/index.html",
+    "static/media/03.svg": "/robin/static/media/03.b1ed70de6f230df2d3c8176d6063332f.svg",
     "static/media/06.svg": "/robin/static/media/06.14ba53649a847052189048c08631e82b.svg",
     "static/media/03_003.svg": "/robin/static/media/03_003.2f5f8b704a39992b13db4e2d35c16c51.svg",
     "static/media/04.svg": "/robin/static/media/04.15491af255b0fbe48aca1609e1368292.svg",
     "static/media/03_002.svg": "/robin/static/media/03_002.2c0b5fc938018424084e9f1a3246787f.svg",
-    "main.62f6ed62.css.map": "/robin/static/css/main.62f6ed62.css.map",
-    "main.29583c60.js.map": "/robin/static/js/main.29583c60.js.map"
+    "main.275a1e36.css.map": "/robin/static/css/main.275a1e36.css.map",
+    "main.3ddeb6b2.js.map": "/robin/static/js/main.3ddeb6b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.62f6ed62.css",
-    "static/js/main.29583c60.js"
+    "static/css/main.275a1e36.css",
+    "static/js/main.3ddeb6b2.js"
   ]
 }
