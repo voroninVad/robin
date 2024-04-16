@@ -1,11 +1,26 @@
 {
   "files": {
-    "main.css": "/robin/static/css/main.8c12358c.css",
-    "main.js": "/robin/static/js/main.22652ba3.js",
+    "main.css": "/robin/static/css/main.62f6ed62.css",
+    "main.js": "/robin/static/js/main.29583c60.js",
+    "static/media/05.avif": "/robin/static/media/05.b4cd1e049fe2fff3177e.avif",
+    "static/media/02_006.avif": "/robin/static/media/02_006.3113fa3dd4ffef6fd9bf.avif",
+    "static/media/03_004.avif": "/robin/static/media/03_004.7f64b5ea31b0ddfcf40e.avif",
+    "static/media/01_008.avif": "/robin/static/media/01_008.a59af8e5f8d0ca10d98c.avif",
+    "static/media/03_005.avif": "/robin/static/media/03_005.0158763373ca5b33babb.avif",
+    "static/media/04_003.avif": "/robin/static/media/04_003.10b0725eb393c07adaf1.avif",
+    "static/media/01_009.avif": "/robin/static/media/01_009.0bc63f86037e11dc18fc.avif",
+    "static/media/02_002.avif": "/robin/static/media/02_002.49988d732f86a750a7f3.avif",
+    "static/media/02.avif": "/robin/static/media/02.822a9126ed0da2b396b5.avif",
+    "static/media/03_003.avif": "/robin/static/media/03_003.5ea86e34880ab0b34232.avif",
+    "static/media/01_010.avif": "/robin/static/media/01_010.3b90dea1cf7c27cb9668.avif",
+    "static/media/02_004.avif": "/robin/static/media/02_004.f6906a28f309e3a3ca65.avif",
     "static/media/02_003.avif": "/robin/static/media/02_003.5a8e5223711b8749ad7d.avif",
     "static/media/01.avif": "/robin/static/media/01.736925886d2b9e37ad06.avif",
     "static/media/03.avif": "/robin/static/media/03.64b677e7a0c1037800da.avif",
+    "static/media/01_005.avif": "/robin/static/media/01_005.4096b199752292d97902.avif",
+    "static/media/04_002.avif": "/robin/static/media/04_002.79582b2bfd7e6ad4408b.avif",
     "static/media/03_006.avif": "/robin/static/media/03_006.9e5058159fdf2bb6d445.avif",
+    "static/media/03_002.avif": "/robin/static/media/03_002.2b3dcc0ea4381ca27cb4.avif",
     "static/media/01_002.avif": "/robin/static/media/01_002.e235a2b9d96ec2ab042c.avif",
     "static/media/01_004.avif": "/robin/static/media/01_004.7adab6bee9d47486a9de.avif",
     "static/media/01_006.avif": "/robin/static/media/01_006.720bd48253ed08feb305.avif",
@@ -25,11 +40,11 @@
     "static/media/03_003.svg": "/robin/static/media/03_003.2f5f8b704a39992b13db4e2d35c16c51.svg",
     "static/media/04.svg": "/robin/static/media/04.15491af255b0fbe48aca1609e1368292.svg",
     "static/media/03_002.svg": "/robin/static/media/03_002.2c0b5fc938018424084e9f1a3246787f.svg",
-    "main.8c12358c.css.map": "/robin/static/css/main.8c12358c.css.map",
-    "main.22652ba3.js.map": "/robin/static/js/main.22652ba3.js.map"
+    "main.62f6ed62.css.map": "/robin/static/css/main.62f6ed62.css.map",
+    "main.29583c60.js.map": "/robin/static/js/main.29583c60.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c12358c.css",
-    "static/js/main.22652ba3.js"
+    "static/css/main.62f6ed62.css",
+    "static/js/main.29583c60.js"
   ]
 }
