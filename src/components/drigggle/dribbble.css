@@ -63,3 +63,16 @@
     width: 1076px;
     height: 676px;
 }
+
+@media (max-width: 768px){
+    .dribbble{
+        height: 1008px;
+    }.dribbble__content{
+        width: auto;
+        max-width: 100%;
+    }
+    .dribbble__img,.dribbble__img img {
+        width: 688px;
+        height: 516px;
+    }
+}

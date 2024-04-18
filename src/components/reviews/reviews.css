@@ -68,3 +68,16 @@
     height: auto;
     max-height: 90%;
 }
+
+@media (max-width: 768px){
+    .about-me__link{
+        width: auto;
+        max-width: 40%;
+    }
+    .reviews__about-me{
+        height: 371px;
+    }
+    .about-me__desc{
+        max-width: 90%;
+    }
+}

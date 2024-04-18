@@ -31,7 +31,8 @@ export class Exp_work extends Component {
     }
   render() {
     return (
-      <div id='exp' className="exp__work">
+      <div className="experience">
+        <div id='exp' className="exp__work">
             <div className="exp__title">
                 <span>work experience</span>
                 Companies I have worked for in the past
@@ -39,6 +40,7 @@ export class Exp_work extends Component {
             <div className="exp__workInCompan">
                 <Card cards={this.state.cards}/>
             </div>
+      </div>
       </div>
     )
   }

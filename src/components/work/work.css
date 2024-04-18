@@ -1,12 +1,12 @@
-.work__container{
+.work{
+    height: 2201px;
+    color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.work{
-    height: 2201px;
-    color: #FFFFFF;
+.work__container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,3 +73,25 @@
     border: 1px solid #5221E6;
 }
 
+@media (max-width: 768px){
+    .work{
+        height: 3868px;
+    }
+    .work, .work__container{
+        align-items: normal;
+    }
+    .work__items{
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .work__item{
+        width: auto;
+        max-width: 90%;
+        max-height: 100%;
+    }
+  }

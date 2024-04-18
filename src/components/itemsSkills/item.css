@@ -35,3 +35,17 @@
     
     color: #8491A0;
 }
+
+
+@media (max-width: 768px){
+    .items{
+        grid-template-columns: repeat(2, minmax(332px, 1fr));
+    }
+    .item{
+        width: 332px;
+        height: 200px;
+    }
+    .item__desc{
+        max-width: 80%;
+    }
+}

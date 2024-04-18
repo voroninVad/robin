@@ -3,11 +3,15 @@
     max-width: 100%;
     background-color: #000000;
     color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skillset__content{
     width: auto;
-    max-width: 100%;
+    max-width: 90%;
     height: 664px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -19,7 +23,6 @@
 .skillset__text{
     width: auto;
     max-width: 100%;
-    padding-left: 70px;
 }
 
 .skillset__title{
@@ -45,4 +48,25 @@
 .skillset__skills{
     width: 900px;
     height: 400px;
+}
+
+@media (max-width: 768px){
+    .skillset{
+        height: 851px;
+    }
+    .skillset__content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skillset__text{
+        padding: 20px 0;
+    }
+    .skillset__desc{
+        width: 688px;
+    }
+    .skillset__skills{
+        width: auto;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

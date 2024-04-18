@@ -22,6 +22,7 @@
     width: auto;
     max-width: max-content;
     height: 360px;
+    object-fit: cover;
 }
 
 .reviews_card__text{
@@ -76,4 +77,14 @@
     font-weight: 700;
     line-height: 36px;
     text-align: left;
+}
+
+@media (max-width: 768px){
+    .review__cards{
+        width: 332px;
+    }
+    .reviews_card__img, .reviews_card__img img{ 
+        width: auto;
+        max-width: 100%;
+    }
 }

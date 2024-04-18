@@ -55,8 +55,15 @@
     border-bottom: 1px solid #8491A0;
 }
 
-.instagram__img, .instagram__img img{
+.instagram__img , .instagram__img img{
     width: auto;
     max-width: 100%;
     height: 600px;
+    object-fit: cover;
 }
+
+@media (max-width: 768px){
+    .instagram__text{
+        padding-left: 40px;
+    }
+  }

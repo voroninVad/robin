@@ -1,16 +1,23 @@
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .exp__work{
+    width: auto;
+    max-width: 90%;
     height: 715px;
     background-color: #000000;
     color: #FFFFFF;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: space-around;
 }
 
 .exp__title{
+    width: auto;
+    max-width: 80%;
     font-size: 55px;
     font-weight: 700;
     line-height: 66.17px;
@@ -27,9 +34,7 @@
 
 .exp__title span{
     width: 150px;
-}
 
-.exp__title span{
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -38,5 +43,12 @@
 }
 
 .exp__workInCompan{
-    width: 1300px;
+    width: auto;
+    max-width: 95%;
 }
+
+@media (max-width:768px){
+    .exp__title{
+        max-width: 90%;
+    }
+}   

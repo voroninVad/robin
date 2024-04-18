@@ -36,5 +36,18 @@
     line-height: 27px;
     text-align: left;
 
-    color: #8491A0;
+    color: #8491A0; 
 }
+
+
+@media (max-width: 768px){
+    .cardItem{
+        margin: 20px 0;
+    }
+    .cardItem,.cardItem img{
+        width: 688px;
+    }
+    .cardItem__title,.cardItem__desc{
+        max-width: 90%;
+    }
+  }

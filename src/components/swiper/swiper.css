@@ -39,3 +39,29 @@
     align-items: center;
     border: 1px solid #181823;
 }
+
+@media (max-width: 768px){
+    .swipers__slide{
+        height: 420px;
+    }
+    .swiper__img:nth-child(1){
+        width: 768px;
+        animation: none;
+    }
+    .swiper__img:nth-child(2){
+        display: none;
+    }
+    .swipers{
+        width: auto;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .swiper__img img{
+        width: auto;
+        height: 21px;
+    }
+    .swiper{
+        width: 384px;
+    }
+  }

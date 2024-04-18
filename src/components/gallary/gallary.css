@@ -99,3 +99,29 @@
 .course .btn-active{
     background-color: #5221E6;
 }
+
+@media (max-width: 768px){
+    .gallary{
+        height: 1323px;
+    }
+    .gallary__content{
+        height: 90%;
+    }
+    .gallary__title{
+        width: auto;
+        max-width: 100%;
+    }
+    .course{
+        width: auto;
+        max-width: 70%;
+    }
+    .images{
+        grid-template-columns: 332px 332px;
+        grid-column-gap: 30px;
+        height: 900px;
+    }
+    .image,.image img{
+        width: 332px;
+    }
+
+}
