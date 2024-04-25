@@ -123,5 +123,44 @@
     .image,.image img{
         width: 332px;
     }
+}
 
+@media (max-width: 360px){
+    .gallary{
+        height: auto;
+        justify-content: normal;
+    }
+    .gallary__title{
+        font-size: 32px;
+        line-height: 38.5px;
+    }
+    .gallary__content > *{
+        padding: 15px 0;
+    }
+    .gallary__content{
+        height: auto;
+        justify-content: normal;
+    }
+    .course{
+        max-width: 100%;
+        min-height: 150px;
+        display: grid;
+        grid-template-columns: 148px 148px;
+    }
+    .course button{
+        width: 148px;
+        text-align: center;
+    }
+    .images{
+        grid-template-columns: 320px;
+        grid-column-gap: 30px;
+        height: 1751px;
+    }
+    .image,.image img{
+        width: 320px;
+        height: 420px;
+    }    
+     .images:nth-child(3),.images:nth-child(4){
+        height: 1300px;
+    }
 }

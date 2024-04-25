@@ -32,7 +32,7 @@
 }
 
 .swiper{
-    min-width: 340px;
+    width: 340px;
     height: 140px;
     display: flex;
     justify-content: center;
@@ -63,5 +63,13 @@
     }
     .swiper{
         width: 384px;
+    }
+  }
+  @media (max-width: 360px){
+    .swiper__img:nth-child(1){
+        width: 360px;
+    }
+    .swiper{
+        width: 180px;
     }
   }

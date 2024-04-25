@@ -31,7 +31,7 @@ export class Skillset extends Component {
                 {
                     icon: icon4,
                     title: 'Photography',
-                    desc: 'I started my design journey with motion design in my college days. Motion is something that really fascinates me because of the flexibility of story telling.'
+                    desc: 'Clicking pictures really brings out the creative in me. Phtography really makes you look and percieve things in a different way.'
                 },
             ]
         }

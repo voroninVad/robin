@@ -109,3 +109,23 @@
         max-width: 50%;
     }
 }
+
+@media (max-width: 360px){
+    .contact{
+        width: 360px;
+        height: 771px;
+    }
+    .contact__content{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .contact__content > *{
+        max-width: 100%;
+    }
+    .contact__title span{
+        font-size: 32px;
+    }
+    .contact__form input[type="submit"]{
+        height: 75px;
+    }
+}

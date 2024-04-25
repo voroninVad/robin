@@ -62,12 +62,14 @@
 .dribbble__img,.dribbble__img img {
     width: 1076px;
     height: 676px;
+    object-fit: cover;
 }
 
 @media (max-width: 768px){
     .dribbble{
         height: 1008px;
-    }.dribbble__content{
+    }
+    .dribbble__content{
         width: auto;
         max-width: 100%;
     }
@@ -76,3 +78,29 @@
         height: 516px;
     }
 }
+
+@media (max-width: 360px){
+    .dribbble{
+        height: 974px;
+    }
+    .dribbble__content{
+        min-height: 90%;
+    }
+    .dribbble__text{
+        width: 320px;
+    }
+    .dribbble__text > *{
+        padding: 15px 0;
+    }
+    .dribbble__title{
+        max-width: 75%;
+    }
+    .dribbble__link{
+        max-width: 100%;
+    }
+    .dribbble__img,.dribbble__img img {
+        width: 320px;
+        height: 516px;
+        object-position: 0;
+    }
+  }

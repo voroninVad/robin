@@ -8,6 +8,7 @@
 .cardItem img {
     width: 636px;
     height: 620px;
+    object-fit: cover;
 }
 
 .cardItem__content{
@@ -49,5 +50,20 @@
     }
     .cardItem__title,.cardItem__desc{
         max-width: 90%;
+    }
+  }
+  @media (max-width: 360px){
+    .cardItem__content > *{
+        padding: 5px 0;
+    }
+    .cardItem,.cardItem img{
+        width: 320px;
+        height: 400px;
+    }
+    .cardItem{
+        height: 756px;
+    }
+    .cardItem__title,.cardItem__desc{
+        max-width: 100%;
     }
   }

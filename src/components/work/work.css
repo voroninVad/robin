@@ -95,3 +95,20 @@
         max-height: 100%;
     }
   }
+  @media (max-width: 360px){
+    .work__title{
+        font-size: 32px;
+        line-height: 38.5px;
+    }
+    .work{
+        height: 3484px;
+    } 
+    .work__items{
+        justify-content: normal;
+    }
+    .work__item{
+        width: auto;
+        max-width: 90%;
+        max-height: 100%;
+    }
+  }

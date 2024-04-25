@@ -88,3 +88,14 @@
         max-width: 100%;
     }
 }
+@media (max-width: 360px){
+    .review__cards{
+        width: 320px;
+        height: 2500px;
+        display: flex;
+    }
+    .reviews_card__img, .reviews_card__img img{ 
+        width: auto;
+        max-width: 100%;
+    }
+}

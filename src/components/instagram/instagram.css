@@ -67,3 +67,28 @@
         padding-left: 40px;
     }
   }
+
+  @media (max-width: 360px){
+    .instagram{
+        height: 900px;
+    }
+    .instagram__content{
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .instagram__text{
+        max-width: 90%;
+        height: 50%;
+        padding: 0;
+    }    
+    .instagram__title{
+        font-size: 32px;
+        line-height: 38.5px;
+    }
+    .instagram__img , .instagram__img img{
+        width: 360px;
+        height: 450px;
+    }
+}

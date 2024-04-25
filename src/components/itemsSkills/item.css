@@ -39,7 +39,7 @@
 
 @media (max-width: 768px){
     .items{
-        grid-template-columns: repeat(2, minmax(332px, 1fr));
+        grid-template-columns: repeat(2, minmax(320px, 1fr));
     }
     .item{
         width: 332px;
@@ -47,5 +47,19 @@
     }
     .item__desc{
         max-width: 80%;
+    }
+}
+@media (max-width: 360px){
+    .items{
+        grid-template-columns: repeat(1, minmax(320px, 1fr));
+    }
+    .item{
+        width: 320px;
+    }
+    .item > *{
+        padding: 10px 0;
+    }
+    .item__desc{
+        max-width: 100%;
     }
 }

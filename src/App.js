@@ -18,15 +18,10 @@ import Contact from './components/contact/Contact';
 
 class App extends React.Component {
   componentDidMount(){
-    $('.btn-nav').click(function(){
-      $('.__nav').removeClass('active-menu');
-      var id = $(this).attr('data-num');
-      $('#blockBtn'+id).addClass('active-menu');
-    })
-  $(window).on("scroll", function() {
-            if ($(window).scrollTop() > 10) $('.header').addClass('header--scrolling');
-            else $('.header').removeClass('header--scrolling');
-      });
+    $(window).on("scroll", function() {
+      if ($(window).scrollTop() > 5) $('.header').addClass('header--scrolling');
+      else $('.header').removeClass('header--scrolling');
+    });
 
       
     $('.btn').click(function(event){
@@ -37,22 +32,23 @@ class App extends React.Component {
       $('#visible-'+name).addClass('action')
     })
   }
+  
   render(){
     return (
       <div className="App">
-        <Header />
+        <Header/>
         <div className='main'>
-             <Banner />
-           <Exp_work /> 
-            <Philosophy />
-             <Skillset />
-             <Swiper />
-            <Work /> 
-            <Instagram />
-           <Dribbble />
-             <Reviews />
-             <Gallary />
-           <Contact />
+          <Banner />
+          <Exp_work /> 
+          <Philosophy />
+          <Skillset />
+          <Swiper />
+          <Work /> 
+          <Instagram />
+          <Dribbble />
+          <Reviews />
+          <Gallary />
+          <Contact />
         </div>
         <Footer />
       </div>

@@ -17,9 +17,11 @@ export class Footer extends Component {
                     <div className="logo">
                         <img src={logo} alt="" />
                     </div>
+                    <div className="footer__img">
                     <img src={tw} alt="" />
                     <img src={dr} alt="" />
                     <img src={inst} alt="" />
+                    </div>
                 </div>
                 <div className="footer__link">
                     <ul>
