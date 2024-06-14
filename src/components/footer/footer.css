@@ -97,6 +97,9 @@
     .footer__content{
         max-width: 100%;
     }
+    .footer_img{
+        width: 15%;
+    }
     .copyright{
         max-width: 40%;
     }
