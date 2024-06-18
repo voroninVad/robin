@@ -60,7 +60,7 @@
 }
 
 .dribbble__img,.dribbble__img img {
-    width: 1076px;
+    width: 100%;
     height: 676px;
     object-fit: cover;
 }
@@ -79,27 +79,29 @@
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 650px){
     .dribbble{
         height: 974px;
+        margin: 0 auto;
     }
     .dribbble__content{
+        max-width: 90%;
         min-height: 90%;
     }
     .dribbble__text{
-        width: 320px;
+        width: 100%;
     }
     .dribbble__text > *{
         padding: 15px 0;
     }
     .dribbble__title{
-        max-width: 75%;
+        max-width: 100%;
     }
     .dribbble__link{
         max-width: 100%;
     }
     .dribbble__img,.dribbble__img img {
-        width: 320px;
+        width: 100%;
         height: 516px;
         object-position: 0;
     }

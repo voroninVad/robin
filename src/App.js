@@ -42,13 +42,13 @@ class App extends React.Component {
           <Exp_work /> 
           <Philosophy />
           <Skillset />
-          <Swiper />
+           <Swiper />
           <Work /> 
           <Instagram />
           <Dribbble />
           <Reviews />
           <Gallary />
-          <Contact />
+          <Contact /> 
         </div>
         <Footer />
       </div>

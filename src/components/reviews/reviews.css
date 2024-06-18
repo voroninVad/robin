@@ -64,7 +64,7 @@
 
 .reviews__cards{
     width: auto;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     max-height: 90%;
 }
@@ -81,7 +81,7 @@
         max-width: 90%;
     }
 }
-@media (max-width: 360px){
+@media (max-width: 650px){
     .reviews{
         height: 2896px;
         justify-content: center;

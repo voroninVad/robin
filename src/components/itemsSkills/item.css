@@ -39,27 +39,32 @@
 
 @media (max-width: 768px){
     .items{
+        max-width: 85%;
         grid-template-columns: repeat(2, minmax(320px, 1fr));
     }
     .item{
-        width: 332px;
+        width: 90%;
         height: 200px;
     }
     .item__desc{
         max-width: 80%;
     }
 }
-@media (max-width: 360px){
+@media (max-width: 650px){
     .items{
-        grid-template-columns: repeat(1, minmax(320px, 1fr));
-    }
-    .item{
-        width: 320px;
+        max-width: 75%;
+        grid-template-columns: repeat(1, minmax(400px, 1fr));
     }
     .item > *{
+        width: 90%;
         padding: 10px 0;
     }
     .item__desc{
         max-width: 100%;
+    }
+}
+@media (max-width: 360px){
+    .items{
+        grid-template-columns: repeat(1, minmax(320px, 1fr));
     }
 }

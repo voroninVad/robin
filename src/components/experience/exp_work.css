@@ -52,7 +52,15 @@
         max-width: 90%;
     }
 }   
-@media (max-width:360px){
+@media (max-width: 650px){
+    /* .exp__title{
+        font-size: 40px;
+    } */
+} 
+@media (max-width:650px){
+    .exp__title{
+        padding: 40px 0;
+    }
     .experience{
         height: 1192px;
         justify-content: normal;

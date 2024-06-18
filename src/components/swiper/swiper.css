@@ -65,11 +65,11 @@
         width: 384px;
     }
   }
-  @media (max-width: 360px){
+  @media (max-width: 650px){
     .swiper__img:nth-child(1){
-        width: 360px;
+        width: 100%;
     }
     .swiper{
-        width: 180px;
+        width: 100%;
     }
   }

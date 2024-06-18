@@ -1,6 +1,6 @@
 
 .header{
-    width: 1440px;
+    width: 100%;
     height: 80px;
     z-index: 10;
 
@@ -11,7 +11,6 @@
 }
 
  .header__content{
-    width: auto;
     max-width: 95%;
     height: 80px;
     display: flex;
@@ -63,15 +62,14 @@ li  a{
     background-color: #000000;
 }
 
-
-@media (max-width:768px){
+@media (max-width: 768px){
     .header{
-        width: 768px;
+        width: 100%;
     }
 }
-@media (max-width:360px){
+@media (max-width: 650px){
     .header{
-        width: 360px;
+        width: 100%;
     }
     .header__logo{
         padding-left: 10px;
@@ -88,14 +86,14 @@ li  a{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 400px;
+        margin-left: 100%;
     }
     .menu-visible{
         margin-left: 0;
     }
     nav ul{
-        width: 60%;
-        height: 60%;
+        width: 40%;
+        height: 70%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
